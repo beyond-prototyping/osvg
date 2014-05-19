@@ -1,52 +1,5 @@
-.forest {
-    stroke: #7f7;
-    fill: #7f7;
-}
-
-.park {
-    stroke: #9f9;
-    fill: #9f9;
-}
-
-
 .highway {
     fill: none;
-}
-
-.motorway-border { stroke-width: 150; stroke: black; }
-.motorway-fill { stroke-width: 100; stroke: #99f; }
-
-.motorway_link-border { stroke-width: 120; stroke: black; }
-.motorway_link-fill { stroke-width: 80; stroke: #99f; }
-
-.trunk-border {  stroke-width: 150;  stroke: black; }
-.trunk-fill {  stroke-width: 100;  stroke: #f99; }
-
-.trunk_link-border { stroke-width: 120; stroke: black; }
-.trunk_link-fill { stroke-width: 80; stroke: #f99; }
-
-.primary-border, .primary_link-border { stroke-width: 70; stroke: black; }
-.primary-fill, .primary_link-fill { stroke-width: 50; stroke: #f99; }
-
-.secondary-border { stroke-width: 70; stroke: black; }
-.secondary-fill { stroke-width: 50; stroke: #f99; }
-
-.tertiary-border { display: none }
-.tertiary-fill { stroke-width: 25; stroke: #faa; }
-
-.place {
-    font-size: 500px;
-    font-family: Verdana;
-    fill: black;
-}
-
-.riverbank {
-    fill: #55f;
-    stroke: #55f;
-}
-
-.route {
-    stroke-width: 50;
-    stroke: #aaa;
-    fill: none;
+    stroke-width: 15;
+    stroke: black;
 }

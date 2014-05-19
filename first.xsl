@@ -1,4 +1,4 @@
-<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                xmlns:p="http://lapin-bleu.net/osm2svg/ns"
                xmlns:fn="http://www.w3.org/2005/xpath-functions"
                version="2.0"
@@ -11,7 +11,6 @@
   <xsl:key name="way-key" match="way" use="@id"/>
 
   <xsl:variable name="params" select="document('params.xml')/p:params/p:param"/>
-
 
   <xsl:template match="osm|bounds|bound">
     <xsl:copy>
